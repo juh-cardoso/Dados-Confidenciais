@@ -1,0 +1,95 @@
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, serif;
+}
+
+body {
+  background: url('assets/inicio.png') no-repeat center center/cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navbar {
+  background-color: #0a2c58;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: #f0f0f0;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.buttons {
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.btn img {
+  width: 100px;
+  height: 100px;
+  filter: brightness(0);
+}
+
+.btn span {
+  margin-top: 1rem;
+  background-color: #e6ebf3;
+  padding: 0.5rem 1.5rem;
+  border-radius: 2rem;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #0a2c58;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+.logo {
+  height: 60px;
+  margin-left: 1rem;
+}
+
+.btn {
+  text-decoration: none;
+  color: inherit;
+}
